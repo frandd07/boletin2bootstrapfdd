@@ -189,15 +189,19 @@ export default function Prices() {
           {/* Plan Básico */}
           <div className="col">
             <div
-              className={`card ${
-                selectedPlan === "basic" ? "border-primary" : ""
-              }`}
+              className={`card ${selectedPlan === "basic" ? "border" : ""}`}
+              style={{
+                borderColor: selectedPlan === "basic" ? "#627264" : "", // El color del borde
+              }}
               onClick={() => handleSelectPlan("basic")}
             >
               <div
                 className={`card-header text-center ${
-                  selectedPlan === "basic" ? "bg-primary text-white" : ""
+                  selectedPlan === "basic" ? "text-white" : ""
                 }`}
+                style={{
+                  backgroundColor: selectedPlan === "basic" ? "#627264" : "", // Color de fondo en la cabecera
+                }}
               >
                 <h5>Básico</h5>
               </div>
@@ -226,15 +230,19 @@ export default function Prices() {
           {/* Plan Pro (destacado) */}
           <div className="col">
             <div
-              className={`card ${
-                selectedPlan === "pro" ? "border-primary" : ""
-              }`}
+              className={`card ${selectedPlan === "pro" ? "border" : ""}`}
+              style={{
+                borderColor: selectedPlan === "pro" ? "#627264" : "", // El color del borde
+              }}
               onClick={() => handleSelectPlan("pro")}
             >
               <div
                 className={`card-header text-center ${
-                  selectedPlan === "pro" ? "bg-primary text-white" : ""
+                  selectedPlan === "pro" ? "text-white" : ""
                 }`}
+                style={{
+                  backgroundColor: selectedPlan === "pro" ? "#627264" : "", // Color de fondo en la cabecera
+                }}
               >
                 <h5>Pro</h5>
               </div>
@@ -271,15 +279,19 @@ export default function Prices() {
           {/* Plan Premium */}
           <div className="col">
             <div
-              className={`card ${
-                selectedPlan === "premium" ? "border-primary" : ""
-              }`}
+              className={`card ${selectedPlan === "premium" ? "border" : ""}`}
+              style={{
+                borderColor: selectedPlan === "premium" ? "#627264" : "", // El color del borde
+              }}
               onClick={() => handleSelectPlan("premium")}
             >
               <div
                 className={`card-header text-center ${
-                  selectedPlan === "premium" ? "bg-primary text-white" : ""
+                  selectedPlan === "premium" ? "text-white" : ""
                 }`}
+                style={{
+                  backgroundColor: selectedPlan === "premium" ? "#627264" : "", // Color de fondo en la cabecera
+                }}
               >
                 <h5>Premium</h5>
               </div>
@@ -301,7 +313,6 @@ export default function Prices() {
                   <li>4 salidas de campo al mes</li>
                   <li>Reportes detallados de desarrollo cada semana</li>
                   <li>Clases de idiomas para niños</li>
-                  <li>Prioridad en eventos y actividades especiales</li>
                   <li>24/7 soporte para padres</li>
                 </ul>
                 <button
