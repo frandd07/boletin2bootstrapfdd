@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 
 export default function Form() {
   useEffect(() => {
-    // Este código solo se ejecutará en el cliente
+    // Lo pongo para que se ejecute solo en el cliente sino da error en el document aunque se ve todo.
     import("bootstrap/dist/js/bootstrap.bundle.min.js");
   }, []);
   const handleContactClick = () => {
@@ -85,7 +85,7 @@ export default function Form() {
                     <a
                       className="dropdown-item"
                       href="#"
-                      onClick={handleShowModal} // Muestra el modal
+                      onClick={handleShowModal}
                     >
                       Registrarse
                     </a>

@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 
 export default function Prices() {
   useEffect(() => {
-    // Este código solo se ejecutará en el cliente
+    // Lo pongo para que se ejecute solo en el cliente sino da error en el document aunque se ve todo.
     import("bootstrap/dist/js/bootstrap.bundle.min.js");
   }, []);
   const [showModal, setShowModal] = useState(false);
@@ -191,7 +191,7 @@ export default function Prices() {
             <div
               className={`card ${selectedPlan === "basic" ? "border" : ""}`}
               style={{
-                borderColor: selectedPlan === "basic" ? "#627264" : "", // El color del borde
+                borderColor: selectedPlan === "basic" ? "#627264" : "",
               }}
               onClick={() => handleSelectPlan("basic")}
             >
@@ -200,7 +200,7 @@ export default function Prices() {
                   selectedPlan === "basic" ? "text-white" : ""
                 }`}
                 style={{
-                  backgroundColor: selectedPlan === "basic" ? "#627264" : "", // Color de fondo en la cabecera
+                  backgroundColor: selectedPlan === "basic" ? "#627264" : "",
                 }}
               >
                 <h5>Básico</h5>
@@ -232,7 +232,7 @@ export default function Prices() {
             <div
               className={`card ${selectedPlan === "pro" ? "border" : ""}`}
               style={{
-                borderColor: selectedPlan === "pro" ? "#627264" : "", // El color del borde
+                borderColor: selectedPlan === "pro" ? "#627264" : "",
               }}
               onClick={() => handleSelectPlan("pro")}
             >
@@ -241,7 +241,7 @@ export default function Prices() {
                   selectedPlan === "pro" ? "text-white" : ""
                 }`}
                 style={{
-                  backgroundColor: selectedPlan === "pro" ? "#627264" : "", // Color de fondo en la cabecera
+                  backgroundColor: selectedPlan === "pro" ? "#627264" : "",
                 }}
               >
                 <h5>Pro</h5>
@@ -281,7 +281,7 @@ export default function Prices() {
             <div
               className={`card ${selectedPlan === "premium" ? "border" : ""}`}
               style={{
-                borderColor: selectedPlan === "premium" ? "#627264" : "", // El color del borde
+                borderColor: selectedPlan === "premium" ? "#627264" : "",
               }}
               onClick={() => handleSelectPlan("premium")}
             >
@@ -290,7 +290,7 @@ export default function Prices() {
                   selectedPlan === "premium" ? "text-white" : ""
                 }`}
                 style={{
-                  backgroundColor: selectedPlan === "premium" ? "#627264" : "", // Color de fondo en la cabecera
+                  backgroundColor: selectedPlan === "premium" ? "#627264" : "",
                 }}
               >
                 <h5>Premium</h5>

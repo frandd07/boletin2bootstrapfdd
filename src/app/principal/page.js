@@ -9,7 +9,7 @@ export default function Ejercicio1() {
   const handleCloseModal = () => setShowModal(false);
 
   useEffect(() => {
-    // Este código solo se ejecutará en el cliente
+    // Lo pongo para que se ejecute solo en el cliente sino da error en el document aunque se ve todo.
     import("bootstrap/dist/js/bootstrap.bundle.min.js");
   }, []);
 
@@ -69,7 +69,7 @@ export default function Ejercicio1() {
                     <a
                       className="dropdown-item"
                       href="#"
-                      onClick={handleShowModal} // Muestra el modal
+                      onClick={handleShowModal}
                     >
                       Registrarse
                     </a>
