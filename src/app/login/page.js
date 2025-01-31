@@ -222,7 +222,11 @@ export default function Login() {
                 />
               </div>
 
-              <button type="submit" className="btn btn-primary w-100">
+              <button
+                type="submit"
+                className="btn btn-primary w-100"
+                style={{ backgroundColor: "#627264" }}
+              >
                 Iniciar sesión
               </button>
             </form>

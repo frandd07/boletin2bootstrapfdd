@@ -195,7 +195,11 @@ export default function Card() {
                   Supervisión, alimentación y acompañamiento en las actividades
                   diarias de los niños, garantizando su seguridad y bienestar.
                 </p>
-                <a href="#" className="btn btn-primary">
+                <a
+                  href="#"
+                  className="btn btn-primary"
+                  style={{ backgroundColor: "#627264" }}
+                >
                   Más información
                 </a>
               </div>
@@ -219,7 +223,11 @@ export default function Card() {
                   desarrollo, incluyendo juegos sensoriales, música, lectura y
                   manualidades.
                 </p>
-                <a href="#" className="btn btn-primary">
+                <a
+                  href="#"
+                  className="btn btn-primary"
+                  style={{ backgroundColor: "#627264" }}
+                >
                   Más información
                 </a>
               </div>
@@ -243,7 +251,11 @@ export default function Card() {
                   necesidades nutricionales de los niños, además de fomentar
                   hábitos de higiene y autonomía personal.
                 </p>
-                <a href="#" className="btn btn-primary">
+                <a
+                  href="#"
+                  className="btn btn-primary"
+                  style={{ backgroundColor: "#627264" }}
+                >
                   Más información
                 </a>
               </div>

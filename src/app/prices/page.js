@@ -213,7 +213,10 @@ export default function Prices() {
                     Comunicación con los padres a través de informes semanales
                   </li>
                 </ul>
-                <button className="btn btn-primary w-100">
+                <button
+                  className="btn btn-primary w-100"
+                  style={{ backgroundColor: "#627264" }}
+                >
                   Seleccionar plan
                 </button>
               </div>
@@ -255,7 +258,10 @@ export default function Prices() {
                     música)
                   </li>
                 </ul>
-                <button className="btn btn-primary w-100">
+                <button
+                  className="btn btn-primary w-100"
+                  style={{ backgroundColor: "#627264" }}
+                >
                   Seleccionar plan
                 </button>
               </div>
@@ -298,7 +304,10 @@ export default function Prices() {
                   <li>Prioridad en eventos y actividades especiales</li>
                   <li>24/7 soporte para padres</li>
                 </ul>
-                <button className="btn btn-primary w-100">
+                <button
+                  className="btn btn-primary w-100"
+                  style={{ backgroundColor: "#627264" }}
+                >
                   Seleccionar plan
                 </button>
               </div>

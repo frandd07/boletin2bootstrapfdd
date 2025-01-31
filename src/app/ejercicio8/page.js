@@ -189,7 +189,12 @@ export default function Ejercicio8() {
             con el desarrollo integral de los más pequeños.
           </p>
           <div className="d-flex justify-content-center">
-            <button className="btn btn-primary">Conoce más</button>
+            <button
+              className="btn btn-primary"
+              style={{ backgroundColor: "#627264" }}
+            >
+              Conoce más
+            </button>
           </div>
         </div>
       </section>

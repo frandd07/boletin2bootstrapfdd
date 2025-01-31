@@ -237,7 +237,11 @@ export default function Form() {
           </div>
 
           {/* Botón Enviar */}
-          <button type="submit" className="btn btn-primary">
+          <button
+            type="submit"
+            className="btn btn-primary"
+            style={{ backgroundColor: "#627264" }}
+          >
             Enviar
           </button>
         </form>
